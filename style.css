@@ -1,0 +1,182 @@
+/*
+Theme Name: semantic-ui-wp-theme
+Theme URI: http://www.himysql.com/
+Author: leopku
+Author URI: https://github.com/leopku
+Description: 简洁大方自适应的网页设计。基于 <a href="http://www.semantic-ui.com">Semantic UI</a> 框架开发
+Version: 1.0.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: semantic-ui-wp-theme
+Domain Path: /languages/
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ semantic-ui-wp-theme is based on Underscores http://underscores.me/ and Semantic-UI http://semantic-ui.com.
+
+*/
+
+/*@import url(http://fonts.googleapis.com/css?family=Ubuntu);*/
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('assets/Ubuntu-R.ttf');
+}
+
+body {
+  /*  font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+  font-family: "Ubuntu","Hiragino Sans GB","Hiragino Sans GB W3", "Microsoft Yahei";
+  /*font-family: "Ubuntu","Hiragino Sans GB","Hiragino Sans GB W3";*/
+	/*font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;*/
+	/*font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;*/
+  font-size: 13px !important;
+  -webkit-font-smoothing:antialiased;
+}
+
+a {
+  /*color: #dd4814;*/
+	/*color: #FF851B;*/
+  color: #F05940;
+	text-decoration: none;
+}
+
+a:hover {
+  /*color: #97310e;*/
+  /*color: #85144B;*/
+  color: #FF851B;
+}
+
+#main.site-main > .ui.segment,
+.post > .ui.segment {
+	padding-bottom: 32px !important;
+}
+
+#colophon > .ui.grid > .ui.row > .ui.column {
+  font-size: 0.5rem !important;
+}
+
+.ui.tiny.labels .label,
+.ui.tiny.label {
+    font-size: 0.6875rem;
+    padding: 0.2em 0.4em;
+}
+
+.ui.orange.header {
+  color: #F05940 !important;
+}
+
+.ui.orange.dividing.header {
+  border-bottom: 3px solid #F05940;
+}
+
+i.orange.icon {
+  color: #F05940 !important;
+}
+
+i.inverted.orange.icon {
+  background-color: #F05940 !important;
+  color: #FFFFFF !important;
+}
+/*
+.attached .label {
+	font-size: 0.1rem !important;
+}
+
+.attached.label .label {
+  height: 27px;
+}
+
+.ui.orange.labels .label,
+.ui.orange.label {
+	background-color: #F05940 !!important;
+	border-color: #F05940 !important;
+	color: #FFFFFF !important;
+}
+.ui.labels .teal.label:before,
+.ui.teal.labels .label:before,
+.ui.teal.label:before {
+  background-color: #00B5AD !important;
+}
+*/
+/* Hover */
+/*a.ui.teal.labels .label:hover,
+.ui.teal.labels a.label:hover,
+a.ui.teal.label:hover {
+  background-color: #009A93 !important;
+  border-color: #009A93 !important;
+  color: #FFFFFF !important;
+}
+.ui.labels a.teal.label:hover:before,
+.ui.teal.labels a.label:hover:before,
+a.ui.teal.label:hover:before {
+  background-color: #009A93 !important;
+}*/
+/* Corner */
+/*.ui.teal.corner.label,
+.ui.teal.corner.label:hover {
+  background-color: transparent !important;
+}*/
+
+code,
+pre {
+  padding: 0 3px 2px;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  color: #333333;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+code {
+  padding: 2px 4px;
+  color: #d14;
+  white-space: nowrap;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+pre.prettyprint {
+  margin-bottom: 20px;
+}
+
+pre code {
+  padding: 0;
+  color: inherit;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: 0;
+}
+
+table {
+  display: table;
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;  
+}
+
+#secondary .ui.list ul {
+  padding-left: 0;
+  list-style: none;
+}
