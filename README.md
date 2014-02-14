@@ -30,7 +30,7 @@ This theme was inpiresd by [firmasite](https://wordpress.org/themes/firmasite)
 3. commit your changes
 4. send a 'pr'
 
-## Screenshop
+## Screenshot
 
 ![image](https://raw.github.com/leopku/semantic-ui-wp-theme/master/screenshot.png)
 
